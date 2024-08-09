@@ -3,7 +3,7 @@ const Course = require("../models/Course");
 const User = require("../models/User");
 const mongoose = require("mongoose")
 //create rating
-exports.createRatingReview = async (req, res) => {
+exports.createRating = async (req, res) => {
     try {
         //get user id
         const userId = req.user.id;
