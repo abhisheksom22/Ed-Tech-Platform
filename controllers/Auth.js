@@ -11,6 +11,7 @@ require("dotenv").config();
 exports.sendOtp = async (req, res) => {
     try {
         //fetch email from request
+        console.log("master")
         const { email } = req.body;
 
         //check if user already exists
